@@ -1,0 +1,24 @@
+
+.tile-container {
+  @apply bg-gradient-to-r from-[#D1B5DF] to-[#C77890] p-1 flex;
+}
+.tile-container:hover {
+  /* --tw-scale-x: 1.03;
+  --tw-scale-y: 1.03;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+  transition-property: all;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms; */
+  @apply transform hover:scale-[1.03] transition-all bg-gradient-to-r to-[#D1B5DF] from-[#C77890];
+}
+.tile:hover h4 {
+  color: var(--pink);
+}
+
+.tile:hover .stroke-icon, a:focus .stroke-icon {
+  stroke: var(--pink);
+}
+
+.tile:hover .fill-icon , a:focus .fill-icon {
+  fill: var(--pink);
+}
