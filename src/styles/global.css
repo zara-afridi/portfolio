@@ -1,0 +1,47 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --pink: #cc97b8;
+  --gray: #a1a1aa;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+body {
+  background-color: #000000;
+  color: white;
+  padding: 0 7rem;
+  font-family: "Plus Jakarta Sans", Tahoma, Verdana, sans-serif;
+  font-size: 1rem;
+}
+
+.highlight {
+  color: #e73c70;
+  color: #ff709c;
+  color: #cc97b8;
+}
+
+.gray {
+  color: #a1a1aa;
+}
+
+.skip-nav {
+  @apply absolute px-4 py-3 transition-transform duration-200 transform -translate-y-12 -left-1/2 focus:top-4 focus:left-16 focus:translate-y-3 -top-8;
+}
+
+#skip {
+  scroll-margin-top: 1.125rem;
+}
+
+.shadow:hover {
+  box-shadow: 0 0 1.25rem #ffff;
+}
+
+@media only screen and (max-width: 991px) {
+  body {
+    padding: 0;
+  }  
+}
