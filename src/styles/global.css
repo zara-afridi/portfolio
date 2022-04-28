@@ -29,7 +29,7 @@ body {
 }
 
 .skip-nav {
-  @apply absolute px-4 py-3 transition-transform duration-200 transform -translate-y-12 -left-1/2 focus:top-4 focus:left-16 focus:translate-y-3 -top-8;
+  @apply absolute px-4 py-3 transition-transform duration-200 transform -translate-y-12 -left-1/2 focus:top-4 focus:left-20 focus:translate-y-3 -top-8 z-30;
 }
 
 #skip {
