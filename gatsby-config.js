@@ -1,9 +1,12 @@
 module.exports = {
   siteMetadata: {
-    title: `Portfolio`,
-    siteUrl: `https://www.yourdomain.tld`
+    title: `Zara Afridi Portfolio`,
+    description: 'Zara Afridi - Software Developer',
+    siteUrl: `https://zaraafridi.com`,
+    image: '/images/headshot.jpg'
   },
   plugins: [
+    `gatsby-plugin-react-helmet`,
     'gatsby-plugin-postcss', 
     "gatsby-plugin-styled-components",
     "gatsby-plugin-image",
@@ -17,38 +20,38 @@ module.exports = {
       "path": "./src/images/"
     },
     __key: "images"
-  }, 
-  {
-    resolve: 'gatsby-source-filesystem',
-    options: {
-      name: 'content',
-      path: `${__dirname}/content/`,
+    }, 
+    {
+      resolve: 'gatsby-source-filesystem',
+      options: {
+        name: 'content',
+        path: `${__dirname}/content/`,
+      },
     },
-  },
-  {
-    resolve: `gatsby-source-filesystem`,
-    options: {
-      name: `posts`,
-      path: `${__dirname}/content/jobs`,
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `posts`,
+        path: `${__dirname}/content/jobs`,
+      },
     },
-  },
-  {
-    resolve: `gatsby-source-filesystem`,
-    options: {
-      name: `projects`,
-      path: `${__dirname}/content/projects`,
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `projects`,
+        path: `${__dirname}/content/projects`,
+      },
     },
-  },
-  {
-    resolve: `gatsby-transformer-remark`,
-    options: {
-      // Footnotes mode (default: true)
-      footnotes: true,
-      // GitHub Flavored Markdown mode (default: true)
-      gfm: true,
-      // Plugins configs
-      plugins: [],
+    {
+      resolve: `gatsby-transformer-remark`,
+      options: {
+        // Footnotes mode (default: true)
+        footnotes: true,
+        // GitHub Flavored Markdown mode (default: true)
+        gfm: true,
+        // Plugins configs
+        plugins: [],
+      },
     },
-  },
-]
+  ],
 };
