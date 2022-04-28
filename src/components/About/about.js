@@ -1,7 +1,6 @@
 import * as React from 'react';
 import { StaticImage } from "gatsby-plugin-image";
 
-
 const About = () => {
 
   return (
@@ -10,8 +9,8 @@ const About = () => {
         <div className='text-5xl font-extrabold py-8'>About</div>
         <div className='flex justify-between'>
           <div className='w-7/12'>
-            <p className='pb-4'>My love of all things software development began in university where (after initially applying to a Life Sciences degree) I took an Intro to Coding course, fell in love, and changed my major immediately. I graduated from York University in April 2020 with a Hons. Bachelors in Computer Science.</p>
-            <p className='pb-4'>It's been a long journey since that first course and I've loved every step of it! I am currently working as a Software Development Engineer at Publicis Sapient where I am focusing on building accessible and performant applications with Salesforce.</p>
+            <p className='pb-4'>My love of all things software development began in university where (after initially applying to a Life Sciences degree) I took an Intro to Coding course, fell in love, and changed my major immediately. I graduated from <a href='https://www.yorku.ca/' target="_blank" className='highlight'>York University</a> in April 2020 with a Hons. Bachelors in Computer Science.</p>
+            <p className='pb-4'>It's been a long journey since that first course and I've loved every step of it! I am currently working as a Software Development Engineer at <a href='https://www.publicissapient.com/' target="_blank" className='highlight'>Publicis Sapient</a> where I am focusing on building accessible and performant applications with Salesforce.</p>
             <p className='pb-4'>In my free time, I love to read, bake, expand my Pokémon figurine collection, and learn about cool new technologies.</p>
             <p className='pb-4'>Please explore this site and feel free to contact me should you have any questions or comments!</p>
           </div>
@@ -20,7 +19,7 @@ const About = () => {
             <div className='bg-black p-4 rounded-full'>
               <StaticImage
                 alt="A headshot of a woman with dark brown hair and a white sweater smiling into the camera."
-                src="../../images/final_headshot.jpg"
+                src="../../images/headshot.jpg"
                 className='rounded-full'
               />
             </div>
