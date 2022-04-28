@@ -11,8 +11,8 @@ const IndexPage = () => {
     <Layout>
       <div className='flex flex-col justify-center h-screen '>
         <div className='flex flex-col justify-center'>
-          <h1 id='title' className='text-5xl font-extrabold text-center'>Hi! I'm <span className='highlight'>Zara Afridi</span></h1>
-          <h2 className='text-2xl pt-4 text-center'>Software Developer @ <span className='font-bold'>Publicis Sapient</span></h2>
+          <h1 id='title' className='text-8xl font-extrabold text-center'>Hi! I'm <span className='highlight'>Zara Afridi</span></h1>
+          <h2 className='text-3xl pt-4 text-center'>Software Developer @ <span className='font-bold'>Publicis Sapient</span></h2>
         </div>
       </div>
       <div>
