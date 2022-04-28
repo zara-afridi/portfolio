@@ -1,6 +1,7 @@
 import * as React from "react"
 import Layout from "../components/Layout/layout";
 import TileGroup from "../components/TileGroup/tileGroup";
+import About from "../components/About/about";
 import "@fontsource/plus-jakarta-sans"
 import "../styles/global.css"
 import { StaticImage } from "gatsby-plugin-image";
@@ -24,11 +25,14 @@ const IndexPage = () => {
           </div>
         </div> */}
       </div>
-      <div className='my-8' id="about">
+      {/* <div className='my-8' id="about">
         <div className='text-5xl font-extrabold py-8'>About</div>
         <div className='flex flex-col'>
           <p></p>
         </div>
+      </div> */}
+      <div>
+        <About></About>
       </div>
       <div>
           <TileGroup></TileGroup>
