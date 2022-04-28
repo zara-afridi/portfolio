@@ -1,6 +1,8 @@
 import * as React from 'react';
 import { useState, useEffect } from 'react';
 import useScrollDirection from '../../hooks/useScrollDirection';
+import Social from '../Social/social';
+import Footer from '../Footer/footer';
 import './layout.css';
 
 const Layout = ({children}) => {
@@ -57,6 +59,7 @@ const Layout = ({children}) => {
       <main id='main' className='p-2 md:p-8'>
         {children}
       </main>
+      <Footer></Footer>
     </div>
   )
 };
