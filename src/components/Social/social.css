@@ -84,8 +84,12 @@
   .social-list a::before {
     border: 2px solid transparent;
   }
+
+  .social-list a:focus {
+    outline: none;
+  }
   
-  .social-list a:hover::before {
+  .social-list a:hover::before, .social-list a:focus::before {
     border-top-color: var(--pink);
     border-right-color: var(--pink);
     border-bottom-color: var(--pink);
@@ -100,7 +104,7 @@
     border: 0 solid transparent;
   }
   
-  .social-list a:hover::after {
+  .social-list a:hover::after, .social-list a:focus::after {
     border-top: 2px solid var(--pink);
     border-left-width: 2px;
     border-right-width: 2px;

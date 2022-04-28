@@ -9,7 +9,7 @@ const Social = () => {
     <div className='social-container'>
       <ul className='social-list'>
         <li className>
-          <a href='https://github.com/afridiz1' target='_blank' className='spin'>
+          <a href='https://github.com/afridiz1' target='_blank' rel='noreferrer' className='spin'>
             <FaGithub className='icon'></FaGithub>
           </a>
         </li>
@@ -19,7 +19,7 @@ const Social = () => {
           </a>
         </li>
         <li>
-          <a href='https://www.linkedin.com/in/zara-afridi-b79014177' target='_blank' className='spin'>
+          <a href='https://www.linkedin.com/in/zara-afridi-b79014177' target='_blank' rel='noreferrer' className='spin'>
             <FiLinkedin className='icon'></FiLinkedin>
           </a>
         </li>
