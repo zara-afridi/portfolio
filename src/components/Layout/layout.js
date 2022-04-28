@@ -1,6 +1,6 @@
 import * as React from 'react';
 import { useState, useEffect } from 'react';
-import useScrollDirection from '../hooks/useScrollDirection';
+import useScrollDirection from '../../hooks/useScrollDirection';
 import './layout.css';
 
 const Layout = ({children}) => {

@@ -1,5 +1,5 @@
 import * as React from "react"
-import Layout from "../components/layout";
+import Layout from "../components/Layout/layout";
 import TileGroup from "../components/TileGroup/tileGroup";
 import "@fontsource/plus-jakarta-sans"
 import "../styles/global.css"
