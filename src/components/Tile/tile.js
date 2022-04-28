@@ -41,7 +41,7 @@ const Tile = ({children}) => {
             <h4 className='font-extrabold text-xl hover:highlight'>{title}</h4>
             <h5 className='gray pt-1'>{subTitle}</h5>
           </div>
-          <p className='pb-4' dangerouslySetInnerHTML={{__html: desc}}></p>
+          <div className='pb-4' dangerouslySetInnerHTML={{__html: desc}}/>
           {
             techStack && 
             <ul className='mt-auto text-sm gray divide-x divide-gray'>
