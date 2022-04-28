@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `Zara Afridi Portfolio`,
+    title: `Zara Afridi`,
     description: 'Zara Afridi - Software Developer',
     siteUrl: `https://zaraafridi.netlify.app/`,
     image: '/images/headshot.jpg'
@@ -13,13 +13,24 @@ module.exports = {
     "gatsby-plugin-react-helmet",
     "gatsby-plugin-mdx",
     "gatsby-plugin-sharp",
-    "gatsby-transformer-sharp", {
-    resolve: 'gatsby-source-filesystem',
-    options: {
-      "name": "images",
-      "path": "./src/images/"
+    "gatsby-transformer-sharp", 
+    {
+      resolve: `gatsby-plugin-manifest`,
+      options: {
+        name: 'ZaraAfridi',
+        short_name: 'ZaraAfridi',
+        start_url: '/',
+        icon: 'src/images/icon.png',
+      },
     },
-    __key: "images"
+    `gatsby-plugin-offline`,
+    {
+      resolve: 'gatsby-source-filesystem',
+      options: {
+        "name": "images",
+        "path": "./src/images/"
+      },
+      __key: "images"
     }, 
     {
       resolve: 'gatsby-source-filesystem',
