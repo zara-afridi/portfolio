@@ -3,7 +3,7 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        'pink': '#e73c70',
+        'pink': '#cc97b8',
         'gray': '#b7b7b7',
         'deepPurple': '#150e1c',
       }
