@@ -4,7 +4,6 @@ import TileGroup from "../components/TileGroup/tileGroup";
 import About from "../components/About/about";
 import "@fontsource/plus-jakarta-sans"
 import "../styles/global.css"
-import { StaticImage } from "gatsby-plugin-image";
 
 
 const IndexPage = () => {
