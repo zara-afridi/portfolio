@@ -2,7 +2,7 @@ module.exports = {
   siteMetadata: {
     title: `Zara Afridi Portfolio`,
     description: 'Zara Afridi - Software Developer',
-    siteUrl: `https://zaraafridi.com`,
+    siteUrl: `https://zaraafridi.netlify.app/`,
     image: '/images/headshot.jpg'
   },
   plugins: [
