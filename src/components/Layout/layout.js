@@ -54,7 +54,7 @@ const Layout = ({children}) => {
           <a role='button' href='#projects' className='mr-8 p-2'>
             Projects
           </a>
-          <a href='/resume.pdf' className='mr-32 border-dotted border-2 focus:outline-0 focus:border-pink focus:text-pink hover:border-pink hover:text-pink p-2 rounded'>
+          <a href='/resume.pdf' className='sm:mr-16 border-dotted border-2 focus:outline-0 focus:border-pink focus:text-pink hover:border-pink hover:text-pink p-1 sm:p-2 rounded'>
             Resume
           </a>
         </nav>

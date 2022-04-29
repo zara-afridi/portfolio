@@ -24,7 +24,7 @@
 
 .social-list::after, .social-list::before {
   content: '';
-  width: 30vw;
+  width: 27vw;
   display: block;
   margin: auto;
   height: 1px;
