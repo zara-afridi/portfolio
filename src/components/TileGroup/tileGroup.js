@@ -7,8 +7,6 @@ const TileGroup = () => {
   const projectData = {tiles: [...useProjectStaticQuery()], title: 'Projects', id: 'projects'}; 
   const jobData = {tiles: [...useJobStaticQuery()], title: 'Experience', id: 'work'};
   
-  console.log('projectData',projectData);
-  console.log('jobData',jobData);
   return (
     <div>
       <div id={jobData.id} className='mb-8 pt-8 scroll-mt-8'>

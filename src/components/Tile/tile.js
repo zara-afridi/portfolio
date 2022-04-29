@@ -9,7 +9,6 @@ const Tile = ({children}) => {
   const displayProjectLinks = repo || demo;
   const displayLocation = location && !displayProjectLinks;
 
-  console.log('data', children);
     return (
       <div className='tile-container'>
         <div className='p-6 flex flex-col bg-deepPurple tile'>
