@@ -36,14 +36,12 @@ const Layout = ({children}) => {
     }
     return '';
   }; 
-  scrollDirection === 'up' ? console.log('HELL YEAH BROTHER') : console.log('down');
-  console.log('navState', navState());
 
   return (
     <>
     <Head></Head>
       <div className='flex flex-col justify-center mx-8'>
-        <nav className='nav-container flex flex-row items-center justify-end p-8' data-nav-state={navState()}>
+        <nav className='nav-container flex flex-row items-center justify-center sm:justify-end p-8' data-nav-state={navState()}>
           <a role='button' href="#main" className='skip-nav'>
             Skip To Content
           </a>

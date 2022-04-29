@@ -33,3 +33,14 @@
   background-color: rgba(21, 14, 28, 0.85);
   /* box-shadow: 0 10px 30px -10px var(--pink); */
 }
+
+@media (max-width: 468px) {
+  .nav-container {
+    padding: 1rem;
+    justify-content: center;
+  }
+
+  .nav-container a{
+    margin-right: .25rem;
+  }
+}
