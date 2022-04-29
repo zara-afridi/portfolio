@@ -20,7 +20,7 @@ const About = () => {
               <StaticImage
                 alt="A headshot of a woman with dark brown hair and a white sweater smiling into the camera."
                 src="../../images/headshot.jpg"
-                className='rounded-full'
+                className='!rounded-full'
               />
             </div>
           </div>
