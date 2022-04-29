@@ -5,7 +5,7 @@ import Footer from '../Footer/footer';
 import Head from '../Head/head';
 import './layout.css';
 
-const Layout = ({children}) => {
+const Layout = ({children, mode}) => {
   const [isMounted, setIsMounted] = useState(true);
   const scrollDirection = useScrollDirection('down');
   const [scrolledToTop, setScrolledToTop] = useState(true);
@@ -45,16 +45,16 @@ const Layout = ({children}) => {
           <a role='button' href="#main" className='skip-nav'>
             Skip To Content
           </a>
-          <a role='button' href='#about' className='mr-8 p-2'>
+          <a role='button' href='#about' className='mr-8 p-2 hover:transition hover:text-pink'>
             About
           </a>
-          <a role='button' href='#work' className='mr-8 p-2'>
+          <a role='button' href='#work' className='mr-8 p-2 hover:transition hover:text-pink'>
             Work
           </a>
-          <a role='button' href='#projects' className='mr-8 p-2'>
+          <a role='button' href='#projects' className='mr-8 p-2 hover:transition hover:text-pink'>
             Projects
           </a>
-          <a href='/resume.pdf' className='sm:mr-16 border-dotted border-2 focus:outline-0 focus:border-pink focus:text-pink hover:border-pink hover:text-pink p-1 sm:p-2 rounded'>
+          <a href='/resume.pdf' className='sm:mr-16 border-dotted border-2 focus:outline-0 focus:transition focus:border-pink focus:text-pink hover:transition hover:border-pink hover:text-pink p-1 sm:p-2 rounded'>
             Resume
           </a>
         </nav>
