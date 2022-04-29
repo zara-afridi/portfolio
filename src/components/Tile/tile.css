@@ -2,7 +2,7 @@
 .tile-container {
   @apply bg-gradient-to-r from-[#D1B5DF] to-[#C77890] p-1 flex;
 }
-.tile-container:hover {
+.tile-container:hover, .tile-container:active {
   @apply transform hover:scale-[1.03] transition-all bg-gradient-to-r to-[#D1B5DF] from-[#C77890];
 }
 .tile:hover h4 {
