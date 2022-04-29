@@ -9,4 +9,4 @@ techStack:
   - Apex (Java Based OOP)
   - SOQL (SQL Based Query Language)
 ---
-Lead backend developer tasked with designing data models and building backend architecture for a product display website. 
+Lead backend developer responsible for designing data models in addition to architecting and building efficient backend services. 
