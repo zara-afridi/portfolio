@@ -18,7 +18,7 @@ const IndexPage = () => {
               <Typist.Backspace count={4} delay={1000}></Typist.Backspace>
             </h1>
             <h2 className='text-1xl sm:text-2xl md:text-3xl pt-4 text-center'>
-              Software Developer @ <span className='font-bold'>Publicis Sapient</span>
+              Software Developer @ <span className='font-bold'>Amazon</span>
             </h2>
           </Typist>
           </div>

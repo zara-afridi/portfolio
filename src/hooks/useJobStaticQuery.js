@@ -16,7 +16,6 @@ const useJobStaticQuery = () => {
               endDate(formatString: "MMM YYYY")
               title
               subTitle
-              techStack
               location
             }
             html
